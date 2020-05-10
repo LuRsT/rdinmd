@@ -1,0 +1,32 @@
+{
+  "name": "rdinmd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gil Goncalves",
+  "license": "MIT",
+  "description": "Read a URL in markdown on your terminal",
+  "keywords": [
+    "terminal",
+    "markdown"
+  ],
+  "homepage": "https://github.com/lurst/rdinmd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lurst/rdinmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lurst/rdinmd/issues"
+  },
+  "scripts": {
+    "rdinmd": "index.js"
+  },
+  "dependencies": {
+    "@postlight/mercury-parser": "^2.2.0",
+    "marked": "^1.0.0",
+    "marked-terminal": "^4.1.0",
+    "turndown": "^6.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
