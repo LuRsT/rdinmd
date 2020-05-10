@@ -17,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/lurst/rdinmd/issues"
   },
-  "scripts": {
-    "rdinmd": "index.js"
+  "bin": {
+    "rdinmd": "./index.js"
   },
   "dependencies": {
     "@postlight/mercury-parser": "^2.2.0",

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Mercury = require("@postlight/mercury-parser");
 const TurndownService = require("turndown");
 const marked = require("marked");
